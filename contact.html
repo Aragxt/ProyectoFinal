@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Portafolio | Lab Quim</title>
+    <title>Contact | Agency Perfect</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -24,8 +24,8 @@
 
     <!-- Favicon
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="Fondo_portafolio.jpg">
-    <link rel="icon" type="image/png" sizes="16x16" href="Fondo_portafolio.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
 
     <!-- Stylesheets
     ================================================== -->
@@ -59,7 +59,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li><a href="index.html">Inicio</a></li>
+                        <li class="active"><a href="index.html" data-toggle="dropdown">Inicio</a></li>
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Quiénes Somos<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
 
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
@@ -67,10 +67,10 @@
                             </ul>
 
                         </li>
-                        <li><a href="portfolio.html">Portafolio</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contáctenos</a></li>
                         <li><a href="ui-elements.html">Ingresar</a></li>
-                        
+
                     </ul>
 
                 </div>
@@ -79,13 +79,13 @@
         </nav><!-- /.site-navigation -->
     </header><!-- /#mastheaed -->
 
-    <div id="hero" class="hero overlay subpage-hero portfolio-hero">
+    <div id="hero" class="hero overlay subpage-hero contact-hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Portafolio</h1>
+                <h1>Contáctenos</h1>
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                  <li class="breadcrumb-item active">Portafolio</li>
+                  <li class="breadcrumb-item active">Contáctenos</li>
                 </ol>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
@@ -93,79 +93,67 @@
 
     <main id="main" class="site-main">
 
-        <section class="site-section subpage-site-section section-portfolio">
+        <section class="site-section subpage-site-section section-contact-us">
+
             <div class="container">
-
-                <ul class="portfolio-sorting list-inline text-center">
-                    <li><a href="#" class="btn btn-gray active" data-group="todo">Todo</a></li>
-                    <li><a href="#" class="btn btn-gray" data-group="laboratorio">Laboratorio</a></li>
-                    <li><a href="#" class="btn btn-gray" data-group="suelos">Suelos</a></li>
-                    <li><a href="#" class="btn btn-gray" data-group="agua">Agua</a></li>
-                </ul><!-- /.portfolio-sorting  -->
-
-                <div id="grid" class="row">
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["suelos"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/Estudio.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Toma de muestras y análisis de suelos.</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
+                <div class="row">
+                    <div class="col-sm-7">
+                        <h2>Enviar un Mensaje</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                      <label for="name">Nombre Completo:</label>
+                                      <input type="text" class="form-control" id="name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                      <label for="email">Correo Electrónico:</label>
+                                      <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="message">Asunto:</label>
+                              <input class="form-control" id="subject"></input>
+                            </div>
+                            <div class="form-group">
+                              <label for="message">Mensaje:</label>
+                              <textarea class="form-control form-control-comment" id="message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-green">Contact us</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["suelos"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/Analisis_en_suelo.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Toma de muestras y análisis de suelos.</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
+                    <div class="col-sm-5">
+                        <div class="contact-info">
+                            <h2>Información de Contacto</h2>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h3>Dirección</h3>
+                                    <ul class="list-unstyled">
+                                        <li>Manizales, Caldas</li>
+                                        <li>100 Mainstreet Center</li>
+                                    </ul>
+                                    <h3>Correo Electrónico</h3>
+                                    <a href="mailto:info@agencyperfect.com" target="_blank"> LabQuim@    .com</a>
+                                    <h3>Telefono</h3>
+                                    <a href="+37400900000" target="_blank">+57 *** *** ** **</a>
+                                    <h3>Fax</h3>
+                                    <p>(208) 333 9296</p>
+                                </div>
+                            </div>
+                        </div><!-- /.contact-info -->
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["agua"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/MuestraAgua.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Toma de muestras hidrobiológicas</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["agua"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/MuestrasAgua.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Toma de muestras hidrobiológicas</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["agua"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/Prueba.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Toma de muestras hidrobiológicas</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["laboratorio"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/PruebaLaboratorio1.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Análisis de laboratorio</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["laboratorio"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/PruebaLaboratorio2.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Análisis de laboratorio</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6" data-groups='["agua"]'>
-                        <div class="portfolio-item">
-                            <img src="assets/img/Rio.png" class="img-res" alt="">
-                            <h4 class="portfolio-item-title">Toma de muestras hidrobiológicas</h4>
-                            <a href="portfolio-item.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    
                 </div>
-                
-
             </div>
-        </section><!-- /.section-portfolio -->
+            
+        </section><!-- /.section-contact-us -->
+
+        <!-- <section id="map" class="section-map"></section> -->
+        <!-- /.section-map -->
 
     </main><!-- /#main -->
 
@@ -174,17 +162,17 @@
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <a class="site-title"><span>Lab</span>Quim</a>
-                    <p>Con el apoyo de nuestros
+                    <p> Con el apoyo de nuestros
                         aliados estratégicos
                         ofrecemos servicios
-                        integrales</p>
+                        integrales.</p>
                 </div>
                 <div class="col-lg-offset-4 col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-0 col-xs-6 ">
                     <h3>Nuestro contacto</h3>
                     <ul class="list-unstyled contact-links">
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@agencyperfect.com">info@labquim.com</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000">+374 (00) 80 00 00 </a></li>
-                        <li><i class="fa fa-fax" aria-hidden="true"></i><a href="+37400900000">+374 (00) 90 00 00</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@agencyperfect.com"> LabQuim@    .com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000"> 018000 ******</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+37400900000">+57 *** *** ** **</a></li>
                         <li><i class="fa fa-map-marker" aria-hidden="true"></i><p>Manizales, Caldas</p></li>
                     </ul>
                 </div>
@@ -233,6 +221,7 @@
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
     <script src="assets/js/script.js"></script>
   
 </body>
