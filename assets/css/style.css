@@ -640,10 +640,15 @@ html, body {
 
 /* HEADER
 ================================================== */
+.site-header2 {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    z-index: 3;
+}
 .site-header {
     position: absolute;
-    /* padding: 50px 0 0; */
-    /* background-color: #161b33; */
+    padding: 50px 0 0;
     background-color: transparent;
     width: 100%;
     z-index: 3;
@@ -697,7 +702,7 @@ html, body {
 
 .site-header-white .navbar-nav > li > a,
 .site-header-white .site-title {
-    color: #fff;
+    color: #184E77;
 }
 
 .navbar-nav > li > a i {
@@ -729,7 +734,7 @@ html, body {
 }
 
 .navbar-toggle {
-    border-color: #fff;
+    border-color: #184E77;
     margin: 0 15px 0 0;
     position: relative;
     top: -1px;
@@ -737,8 +742,8 @@ html, body {
 
 .navbar-toggle:hover,
 .navbar-toggle[aria-expanded=true] {
-    background-color: #fff;
-    border-color: #000;
+    background-color: #184E77;
+    border-color: #184E77;
     cursor: pointer;
 }
 
