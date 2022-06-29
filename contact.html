@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Quienes Somos | Lab Quim</title>
+    <title>Contact | Agency Perfect</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -59,7 +59,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li><a href="index.html">Inicio</a></li>
+                        <li class="active"><a href="index.html" data-toggle="dropdown">Inicio</a></li>
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Quiénes Somos<i class="fa fa-caret-down hidden-xs" aria-hidden="true"></i></a>
 
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
@@ -67,73 +67,112 @@
                             </ul>
 
                         </li>
-                        <li><a href="portfolio.html">Portafolio</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contáctenos</a></li>
                         <li><a href="ui-elements.html">Ingresar</a></li>
-                    
+
                     </ul>
 
                 </div>
 
             </div>   
-        </nav>
-    </header>
-    <div id="hero" class="hero overlay subpage-hero blog-hero">
+        </nav><!-- /.site-navigation -->
+    </header><!-- /#mastheaed -->
+
+    <div id="hero" class="hero overlay subpage-hero contact-hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Nuestra Misión y Visión</h1>
+                <h1>Contáctenos</h1>
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                  <li class="breadcrumb-item active">Misión y Visión</li>
+                  <li class="breadcrumb-item active">Contáctenos</li>
                 </ol>
-            </div>
-        </div>
-    </div>
-    <section class="site-section subpage-site-section section-project">
+            </div><!-- /.hero-text -->
+        </div><!-- /.hero-content -->
+    </div><!-- /.hero -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="project-img">
-                        <img src="assets/img/imagen_vision.jpg" class="img-res" alt="">
-                    </div><!-- /.project-img -->
+    <main id="main" class="site-main">
 
-                </div>
-                <aside class="col-md-4">
-                    <div class="mision-vision">
-                        <h1>Misión</h1>
-            
-                        <p class="mision-vision">LabQuim es una firma especializada en el estudio y evaluación del agua subterránea y superficial, así como los medios a través de los cuales fluye. Para ello, utilizamos técnicas avanzadas como hidrogeoquímica, isotopía, modelación, geotecnia entre otras, permitiendo desarrollar estudios integrales desde la ejecución de técnicas de monitoreo hidrológicas e hidrogeológicas hasta el análisis de los datos. Siempre buscamos dar soluciones técnico-científicas a problemas ambientales a escalas locales, regionales y globales</p>
-            
-                        <h1>Visión</h1>
-            
-                        <p class="mision-vision">LabQuim espera convertirse en una firma consultora reconocida a nivel nacional e internacional en el estudio, monitoreo del recurso hídrico y el suelo, con el fin de ofrecer soluciones a problemas ambientales</p>
-                        
+        <section class="site-section subpage-site-section section-contact-us">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <h2>Enviar un Mensaje</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                      <label for="name">Nombre Completo:</label>
+                                      <input type="text" class="form-control" id="name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                      <label for="email">Correo Electrónico:</label>
+                                      <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="message">Asunto:</label>
+                              <input class="form-control" id="subject"></input>
+                            </div>
+                            <div class="form-group">
+                              <label for="message">Mensaje:</label>
+                              <textarea class="form-control form-control-comment" id="message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-green">Contact us</button>
+                            </div>
+                        </form>
                     </div>
-                </aside>
-                
+                    <div class="col-sm-5">
+                        <div class="contact-info">
+                            <h2>Información de Contacto</h2>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h3>Dirección</h3>
+                                    <ul class="list-unstyled">
+                                        <li>Manizales, Caldas</li>
+                                        <li>100 Mainstreet Center</li>
+                                    </ul>
+                                    <h3>Correo Electrónico</h3>
+                                    <a href="mailto:info@agencyperfect.com" target="_blank"> LabQuim@    .com</a>
+                                    <h3>Telefono</h3>
+                                    <a href="+37400900000" target="_blank">+57 *** *** ** **</a>
+                                    <h3>Fax</h3>
+                                    <p>(208) 333 9296</p>
+                                </div>
+                            </div>
+                        </div><!-- /.contact-info -->
+                    </div>
+                </div>
             </div>
-        </div>
-        
-    </section>
+            
+        </section><!-- /.section-contact-us -->
 
-    
+        <!-- <section id="map" class="section-map"></section> -->
+        <!-- /.section-map -->
+
+    </main><!-- /#main -->
+
     <footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <a class="site-title"><span>Lab</span>Quim</a>
-                    <p>Con el apoyo de nuestros
+                    <p> Con el apoyo de nuestros
                         aliados estratégicos
                         ofrecemos servicios
-                        integrales</p>
+                        integrales.</p>
                 </div>
                 <div class="col-lg-offset-4 col-md-3 col-sm-4 col-md-offset-2 col-sm-offset-0 col-xs-6 ">
                     <h3>Nuestro contacto</h3>
                     <ul class="list-unstyled contact-links">
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@agencyperfect.com">info@labquim.com</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000">+374 (00) 80 00 00 </a></li>
-                        <li><i class="fa fa-fax" aria-hidden="true"></i><a href="+37400900000">+374 (00) 90 00 00</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@agencyperfect.com"> LabQuim@    .com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+37400800000"> 018000 ******</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+37400900000">+57 *** *** ** **</a></li>
                         <li><i class="fa fa-map-marker" aria-hidden="true"></i><p>Manizales, Caldas</p></li>
                     </ul>
                 </div>
@@ -169,7 +208,8 @@
                 </div>
             </div>
         </div><!-- /.copyright -->
-    </footer>
+    </footer><!-- /#footer -->
+
 
 
     <!-- Bootstrap core JavaScript
@@ -181,6 +221,7 @@
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
     <script src="assets/js/script.js"></script>
   
 </body>
